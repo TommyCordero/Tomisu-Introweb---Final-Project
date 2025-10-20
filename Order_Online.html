@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    CORDERO, TOMMY C.
+    WD - 202
+    Order - Online Page
+    -->
+    <title>Tomisu</title>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale-1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "styles.css" type = "text/css"/> 
+
+    <link rel="shortcut icon" href="imgs/Tomizuu.png" />
+    <link rel="icon"  type = "image/png" sizes="32x32" href="imgs/Tomizuu.png">
+    <link rel="icon" sizes="180x180" href="imgs/Tomizuu.png">
+    <link rel="icon" sizes="192x192" href="imgs/Tomizuu.png">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="Home.html">
+                <img src="imgs/Tomizu.png" alt="Logo of tomisu" class = "Logo"/>
+            </a>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a> </li>
+                <li><a href="About_Us.html">About Us</a> </li>
+                <li><a href="Menu.html">Menu</a> </li>
+                <li><a href="What's_New.html">What's New</a></li>
+                <li><a href="Order_Online.html">Order Online</a></li>
+            </ul>
+        </nav>
+        <main> 
+           <div class="about-text"><h1>Order Your Tiramisu Now</h1></div>
+           <div class = "border"></div>
+            <section class = "Flavors-section">
+                <div class="menu-grid2">
+                    <div>
+                        <h1>Classic Tiramisu</h1>
+                        <img src ="imgs/classic-t.jfif" alt ="Classic Tiramisu" class = "classic-t"/>
+                        <h2><bold>₱ 150</bold></h2>
+                            <div class="quantity-selector">
+                                <button class="minus">-</button>
+                                <span class="quantity">1</span>
+                                <button class="plus">+</button>
+                            </div>    
+                        
+                    </div>
+                    <div>
+                        <h1>Blueberry Tiramisu</h1>
+                        <img src ="imgs/blueberry-t.jfif" alt ="Blueberry Tiramisu" class = "blueberry-t"/>
+                        <h2><bold>₱ 180</bold></h2>
+                            <div class="quantity-selector">
+                                <button class="minus">-</button>
+                                <span class="quantity">0</span>
+                                <button class="plus">+</button>
+                            </div>    
+                        
+                    </div>
+
+                    <div>
+                        <h1>Biscoff Tiramisu</h1>
+                        <img src ="imgs/biscoff-t.jpg" alt ="Biscoff Tiramisu" class = "biscoff-t"/>
+                        <h2><bold>₱ 180</bold></h2>
+                            <div class="quantity-selector">
+                                <button class="minus">-</button>
+                                <span class="quantity">2</span>
+                                <button class="plus">+</button>
+                            </div>    
+                        
+                    </div>
+                </div>    
+            </section>
+
+            <section class = special-flavor>
+                    <div class="menu-grid2">
+                        <div>
+                            <h1>Ube Tiramisu</h1>
+                            <img src ="imgs/ube-t.jfif" alt ="Ube Tiramisu" class = "ube-t"/>
+                            <h2><bold>₱ 170</bold></h2>
+                                <div class="quantity-selector">
+                                    <button class="minus">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="plus">+</button>
+                                </div>    
+                        
+                        </div>
+
+                        <div>
+                            <h1>Mango Graham Tiramisu</h1>
+                            <img src ="imgs/mango-t.jfif" alt ="Mango Graham Tiramisu" class = "mango-t"/>
+                            <h2><bold>₱ 200</bold></h2>
+                                <div class="quantity-selector">
+                                    <button class="minus">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="plus">+</button>
+                                </div>    
+                        
+                        </div>
+
+                        <div>
+                            <h1>Leche Flan Tiramisu</h1>
+                            <img src ="imgs/flan-t.jfif" alt ="Leche Flan Tiramisu" class = "flan-t"/>
+                            <h2><bold>₱ 200</bold></h2>
+                                <div class="quantity-selector">
+                                    <button class="minus">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="plus">+</button>
+                                </div>    
+                        
+                        </div>
+                    </div>    
+            </section>
+            <section class = christmas-flavor>
+                <div class="menu-grid2">
+                    <div>
+                        <h1>Sapin-Sapin Tiramisu</h1>
+                        <img src ="imgs/sapin-t.jfif" alt ="Sapin-Sapin Tiramisu" class = "sapin-t"/>
+                        <h2><bold>₱ 200</bold></h2>
+                            <div class="quantity-selector">
+                                <button class="minus">-</button>
+                                <span class="quantity">0</span>
+                                <button class="plus">+</button>
+                            </div>    
+                        
+                    </div>
+
+                    <div>
+                        <h1>Bibingka Tiramisu</h1>
+                        <img src ="imgs/bibingka-t.jfif" alt ="Bibingka Tiramisu" class = "bibingka-t"/>
+                        <h2><bold>₱ 200</bold></h2>
+                            <div class="quantity-selector">
+                                <button class="minus">-</button>
+                                <span class="quantity">1</span>
+                                <button class="plus">+</button>
+                            </div>    
+                    </div>
+                </div>
+            </section>
+
+          <section class="summary-section">
+            <h1>Summary of Order</h1>
+
+            <table class="order-summary">
+                <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Cost</th>
+                    <th>Total Cost</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Biscoff Tiramisu</td>
+                    <td>2</td>
+                    <td>₱180</td>
+                    <td>₱360</td>
+                </tr>
+                <tr>
+                    <td>Classic Tiramisu</td>
+                    <td>1</td>
+                    <td>₱150</td>
+                    <td>₱150</td>
+                </tr>
+                <tr>
+                    <td>Bibingka Tiramisu</td>
+                    <td>1</td>
+                    <td>₱200</td>
+                    <td>₱200</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="total-row">
+                        <td colspan="3" class="label">Total Amount:</td>
+                        <td class="amount">₱710.00</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+            </section>
+
+          <section class="form-section">
+            <h1>Fill Out the Delivery Form</h1>
+
+            <form class="delivery-form">
+                <fieldset class="form-left">
+                <legend>Customer Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+                <label for="address">Delivery Address:</label>
+                <input type="text" id="address" placeholder="Enter your delivery address" required>
+
+                <label for="payment">Payment Method</label>
+                <select id="payment" required>
+                    <option>Select mode of payment</option>
+                    <option>Cash on Delivery</option>
+                    <option>Gcash</option>
+                    <option>Bank Transfer</option>
+                </select>
+                </fieldset>
+
+                <fieldset class="form-right">
+                <legend>Delivery Details</legend>
+
+                <label>Preferred Delivery Date / Time:</label>
+                <div class="date-time">
+                    <input type="date" id="date" required>
+                    <input type="time" id="time" required>
+                </div>
+
+                <label>Have a Question or Special Request?</label>
+                <textarea placeholder="Enter your message.."></textarea>
+                </fieldset>
+
+                <div class="form-submit">
+                <button type="submit" class="submit-btn">Place Order</button>
+                </div>
+            </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2025. All rights reserved. Created by Tommy Cordero</p>
+            <p><a href="mailto:Tomisu.net">Tomisu.net</a></p>
+        </footer>
+    </div>
+</body>
+</html>
